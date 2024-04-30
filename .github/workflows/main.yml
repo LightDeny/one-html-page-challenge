@@ -28,6 +28,9 @@ jobs:
         with:
           path: "."
 
+      - name: Display Name
+        run: echo "Denys Koza"
+
       - name: Deploy GitHub Page
         id: deployment
         uses: actions/deploy-pages@v1
